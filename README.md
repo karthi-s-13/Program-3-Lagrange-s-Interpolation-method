@@ -42,8 +42,9 @@ Step 3: for i = 0 to 6
 Step 4: for j = 0 to 6
 
 $$
-if i ! = j
+\text{if } i != j
 $$
+
 
 <br>
 
