@@ -35,4 +35,26 @@ $$
 Sum = sum + pred * y[i]
 $$
 
-Step 5: 
+Step 5: Print the value of y
+
+## Program:
+```
+x= [0,1,2,4,5,6]
+y= [1,14,15,5,6,19]
+s=float (input ("Enter the value of x to be in: "))
+sum=0
+for i in range (0,6):
+ prod=1
+ for j in range (0,6):
+ if i!=j:
+ prod=prod*(s-x[j])/(x[i]-x[j])
+ sum=sum+prod*y[i]
+print ("The functional value is %.4f"%sum) 
+```
+
+## Output:
+Enter the value of x to be in: 10
+The functional value is 311.0000 
+
+## Result:
+the interpolated value of y is obtained
