@@ -54,6 +54,7 @@ print ("The functional value is %.4f"%sum)
 
 ## Output:
 Enter the value of x to be in: 10
+
 The functional value is 311.0000 
 
 ## Result:
