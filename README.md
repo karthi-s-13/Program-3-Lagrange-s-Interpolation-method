@@ -41,8 +41,6 @@ Step 3: for i = 0 to 6
 
 Step 4: for j = 0 to 6
 
-<br>
-
 $$
 if i ! = j
 $$
@@ -58,8 +56,6 @@ $$
 $$
 Sum = sum + pred * y[i]
 $$
-
-<br>
 
 Step 5: Print the value of y
 
